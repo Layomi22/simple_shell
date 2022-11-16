@@ -36,7 +36,6 @@
 
 extern char **environ;
 
-
 /**
  * struct liststr - singly linked list
  * @num: the number field
@@ -233,4 +232,3 @@ int replace_vars(info_t *);
 int replace_string(char **, char *);
 
 #endif
-
